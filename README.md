@@ -1,6 +1,7 @@
 # Identifying Earthquakes in Low-Cost Sensor Signals Contaminated with Vehicular Noise
 
-An amalgamated deep neural network constituent of a DNN trained on earthquake signals from professional sensory equipment as well as a DNN trained on vehicular signals from low-cost sensors for the purpose of earthquake identification in signals from low-cost sensors contaminated with vehicular noise
+An amalgamated deep neural network constituent of a DNN trained on earthquake signals from professional sensory equipment as well as a DNN trained on vehicular signals from low-cost sensors for the purpose of earthquake identification in signals from low-cost sensors contaminated with vehicular noise.
+The study addresses the critical challenge of using affordable, low-cost seismic sensors in urban environments, where vehicular traffic creates significant "noise" that can be easily mistaken for seismic activity.
 
 
 <div align="center">
