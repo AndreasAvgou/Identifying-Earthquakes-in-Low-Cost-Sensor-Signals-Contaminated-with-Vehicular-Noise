@@ -4,9 +4,9 @@
   <img width="550" height="245" alt="image" src="https://github.com/user-attachments/assets/cd94cb52-7203-475f-b63b-85b62aed30cc" />
 </div>
 
-An amalgamated deep neural network constituent of a DNN trained on earthquake signals from professional sensory equipment as well as a DNN trained on vehicular signals from low-cost sensors for the purpose of earthquake identification in signals from low-cost sensors contaminated with vehicular noise.
+Monitoring earthquakes is critical for public safety and disaster management. While low-cost seismic sensors allow for widespread, dense monitoring networks due to their affordability, they face a significant challenge in urban environments: **vehicular noise contamination**. This noise often masks or mimics seismic signals, leading to false positives.
 
-The study addresses the critical challenge of using affordable, low-cost seismic sensors in urban environments, where vehicular traffic creates significant "noise" that can be easily mistaken for seismic activity.
+This work addresses the challenge by proposing a hybrid neural network architecture that combines knowledge from professional seismic data and localized vehicular noise profiles.
 
 ## 🚀 Key Contributions
 
