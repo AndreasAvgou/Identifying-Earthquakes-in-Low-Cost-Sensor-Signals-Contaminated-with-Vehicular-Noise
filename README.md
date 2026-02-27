@@ -10,16 +10,52 @@ The study addresses the critical challenge of using affordable, low-cost seismic
 
 ## 🚀 Key Contributions
 
-1. **Amalgamated Deep Neural Network (DNN):** The core innovation is a composite architecture that combines:
+1. **Novel Architecture:** Development of an amalgamated DNN that fuses a model trained on professional seismic equipment with one trained on vehicular signals from low-cost sensors.
 
-    * A DNN trained on high-fidelity earthquake signals obtained from **professional-grade** sensory equipment.
-    * A DNN trained on specific vehicular noise patterns captured directly by **low-cost** sensors.
+2. **Low-Cost Hardware:** Design of a seismic data logger approximately two orders of magnitude less expensive than professional equipment.
 
-2. **Noise-Robust Identification:** By merging these two specialized models, the system can accurately distinguish between actual seismic events and urban vibrations, even when signals are heavily contaminated by traffic noise.
+3. **Dataset Dissemination:** Creation of three discrete datasets: vehicular noise from low-cost sensors, ground truth seismic data from professional stations, and a two-fold synchronized dataset from both sensor types in close proximity.
 
-3. **Hardware & Datasets:** The work introduces custom low-cost seismic hardware and provides three discrete datasets used to validate the methodology.
+4. **Performance:** Demonstrated significant improvements in effectiveness and efficiency over traditional stochastic differential models.
 
-4. **Performance:** The proposed model significantly outperforms traditional stochastic differential models in both **effectiveness** (accuracy) and **efficiency** (computational speed), making it suitable for real-time monitoring.
+## 🛠 Methodology & Model Architecture
+
+The core of the project is the **Amalgamated DNN**, which utilizes a dual-training approach to filter environmental "clutter".
+
+### Neural Network Configuration
+
+The classification model is based on a **Long Short-Term Memory (LSTM)** architecture consisting of five layers:
+
+1. **Hidden LSTM Layer:** 64 units with ```return_sequences=True```.
+
+2. **Flatten Layer:** Converts 3D output to a 2D tensor.
+
+3. **Dense Layer 1:** 32 units using **ReLU** activation.
+
+4. **Dense Layer 2:** 16 units using **ReLU** activation.
+
+5. **Output Layer:** Dense layer with **Sigmoid** activation for probability scoring.
+
+### The Amalgamation Process
+
+* **VN_DNN:** Trained on vehicular signals captured by low-cost sensors to identify traffic patterns.
+
+* **NOA_DNN:** Trained on high-fidelity earthquake signals from the National Observatory of Athens (NOA).
+
+* **AM_DNN:** The final model, created by concatenating the pre-trained models into a single tensor to differentiate seismic events from noise.
+
+## 📡 Hardware Specifications
+The low-cost sensory equipment was developed at the [CMODLab](https://cmodlab.di.ionio.gr/) of Ionian University.
+
+| Component | Specification |
+| ---------- | ---------- |
+| Microcomputer | Raspberry Pi 3 B+ |
+| A/D Board | ADS1256 (24-bit high-speed precision) |
+| Sensor | 3-axis Geophone (4.5 Hz, 380 Ohm) |
+| Sampling Rate | 225 Hz - 3750 Hz (internally) |
+| Power | Solar panel, battery, and step-down converter for autonomy |
+| Connectivity | USB GSM-GPRS 4G modem |
+
 
 ## 📚 Citation
 If you use this research or code in your work, please cite the original paper:
