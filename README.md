@@ -21,7 +21,7 @@ The study addresses the critical challenge of using affordable, low-cost seismic
 
 4. **Performance:** The proposed model significantly outperforms traditional stochastic differential models in both **effectiveness** (accuracy) and **efficiency** (computational speed), making it suitable for real-time monitoring.
 
-📚 Citation
+## 📚 Citation
 If you use this research or code in your work, please cite the original paper:
 
 Plain Text
