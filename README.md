@@ -8,7 +8,7 @@ Monitoring earthquakes is critical for public safety and disaster management. Wh
 
 This work addresses the challenge by proposing a hybrid neural network architecture that combines knowledge from professional seismic data and localized vehicular noise profiles.
 
-## 🚀 Key Contributions
+## Key Contributions
 
 1. **Novel Architecture:** Development of an amalgamated DNN that fuses a model trained on professional seismic equipment with one trained on vehicular signals from low-cost sensors.
 
@@ -57,7 +57,7 @@ The low-cost sensory equipment was developed at the [CMODLab](https://cmodlab.di
 | Connectivity | USB GSM-GPRS 4G modem |
 
 
-## 📚 Citation
+## Citation
 If you use this research or code in your work, please cite the original paper:
 
 Plain Text
