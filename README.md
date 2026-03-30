@@ -44,7 +44,7 @@ The classification model is based on a **Long Short-Term Memory (LSTM)** archite
 
 * **AM_DNN:** The final model, created by concatenating the pre-trained models into a single tensor to differentiate seismic events from noise.
 
-## 📡 Hardware Specifications
+## Hardware Specifications
 The low-cost sensory equipment was developed at the [CMODLab](https://cmodlab.di.ionio.gr/) of Ionian University.
 
 | Component | Specification |
