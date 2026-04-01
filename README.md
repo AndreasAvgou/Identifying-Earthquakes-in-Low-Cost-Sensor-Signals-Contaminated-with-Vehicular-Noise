@@ -18,7 +18,7 @@ This work addresses the challenge by proposing a hybrid neural network architect
 
 4. **Performance:** Demonstrated significant improvements in effectiveness and efficiency over traditional stochastic differential models.
 
-## 🛠 Methodology & Model Architecture
+## Methodology & Model Architecture
 
 The core of the project is the **Amalgamated DNN**, which utilizes a dual-training approach to filter environmental "clutter".
 
