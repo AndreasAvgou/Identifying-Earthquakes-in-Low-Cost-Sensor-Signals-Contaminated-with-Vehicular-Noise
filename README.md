@@ -1,6 +1,8 @@
+<div align="center">
+  
 # Identifying Earthquakes in Low-Cost Sensor Signals Contaminated with Vehicular Noise
 
-<div align="center">
+
   <img width="550" height="245" alt="image" src="https://github.com/user-attachments/assets/cd94cb52-7203-475f-b63b-85b62aed30cc" />
 </div>
 
