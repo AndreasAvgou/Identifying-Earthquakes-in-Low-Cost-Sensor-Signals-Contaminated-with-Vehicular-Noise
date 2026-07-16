@@ -1,9 +1,9 @@
 <div align="center">
   
-# Identifying Earthquakes in Low-Cost Sensor Signals Contaminated with Vehicular Noise
-
-
   <img width="550" height="245" alt="image" src="https://github.com/user-attachments/assets/cd94cb52-7203-475f-b63b-85b62aed30cc" />
+
+# Identifying Earthquakes in Low-Cost Sensor Signals Contaminated with Vehicular Noise
+  
 </div>
 
 Monitoring earthquakes is critical for public safety and disaster management. While low-cost seismic sensors allow for widespread, dense monitoring networks due to their affordability, they face a significant challenge in urban environments: **vehicular noise contamination**. This noise often masks or mimics seismic signals, leading to false positives.
