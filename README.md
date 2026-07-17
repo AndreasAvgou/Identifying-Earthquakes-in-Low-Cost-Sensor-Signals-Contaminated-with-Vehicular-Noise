@@ -24,7 +24,7 @@ This work addresses the challenge by proposing a hybrid neural network architect
 
 The core of the project is the **Amalgamated DNN**, which utilizes a dual-training approach to filter environmental "clutter".
 
-### Neural Network Configuration
+## Neural Network Configuration
 
 The classification model is based on a **Long Short-Term Memory (LSTM)** architecture consisting of five layers:
 
@@ -38,7 +38,7 @@ The classification model is based on a **Long Short-Term Memory (LSTM)** archite
 
 5. **Output Layer:** Dense layer with **Sigmoid** activation for probability scoring.
 
-### The Amalgamation Process
+## The Amalgamation Process
 
 * **VN_DNN:** Trained on vehicular signals captured by low-cost sensors to identify traffic patterns.
 
